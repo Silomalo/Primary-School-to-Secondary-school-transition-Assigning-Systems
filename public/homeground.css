@@ -1,0 +1,48 @@
+body{
+  background-image:url('img/beautiful.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.container {
+  max-width: 960px;
+  
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.createpart .col .shadow-sm{
+  background-color:transparent;
+}
+
+.createpart .col .card-body{
+  background-color: rgba(177, 200, 211,.9);
+  
+}
+.createpart .col:nth-child(odd) .card-body{
+  background-color: rgb(237, 243, 250);
+  border: none;
+}
+
+.createpart .col .card-body input{
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: bold;
+}
+.createpart .col .card-body h3{
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+.text-center .col .card-body{
+  padding: 0px;
+  padding-right:5px;
+  border-radius: 10px;
+}
+.text-center .col{
+  color:#ffffff;
+  text-align: right;
+  font-size: 20px;
+}

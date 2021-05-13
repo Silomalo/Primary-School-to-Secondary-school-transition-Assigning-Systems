@@ -1,0 +1,187 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Container2{
+    width: 100%;
+    min-width: 580px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cards_container{
+    height: 70vh;
+    width: 70%;
+    max-width: 100%;
+    display: grid;
+    
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+   
+    grid-gap: 1.5em;
+    overflow-y: auto;
+    grid-template-areas: 
+  
+    "t1  t1  t2  t2  t2"
+    "one two sev sev sev"
+    "thr for sev sev sev"
+    "fiv six sev sev sev";
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+
+
+
+
+.infected{
+    grid-area: one;
+    color: #ff6961;
+}
+.tested{
+    grid-area: two;
+    color: #30d5c8;
+}
+.recovered{
+    grid-area: thr;
+    color: #90ee90;
+}
+.deceased{
+    grid-area: for;
+    color: #add8e6;
+}
+.active{
+    grid-area: fiv;
+    color: #fffcbb;
+}
+.unique{
+    grid-area: six;
+    color: #9e6983;
+}
+
+
+
+.cards{
+    /* border: 1px solid white; */
+    width: 160px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em;
+    background-color: rgba(38,40,51);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 12px;
+}
+
+@media (max-width: 1400px){
+    .cards_container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 0.8fr);
+        height: auto;
+        justify-content: center;
+        grid-template-areas: 
+        "t1  t1  t1"
+        "one two thr"
+        "for fiv six"
+        "t2  t2  t2"
+        "sev sev sev";
+    }
+    .cards{
+        align-self: stretch;
+    }
+    .infected{
+        grid-area: one;
+        align-self: stretch;
+    }
+    .tested{
+        grid-area: two;
+        align-self: stretch;
+    }
+    .recovered{
+        grid-area: thr;
+        align-self: stretch;
+    }
+    .deceased{
+        grid-area: for;
+        align-self: stretch;
+    }
+    .active{
+        grid-area: fiv;
+        align-self: stretch;
+    }
+    .unique{
+        grid-area: six;
+        align-self: stretch;
+    }
+    .regionList{
+        grid-area: sev;
+    }
+    .nationalTracker{
+        grid-area: t1;
+        /* display: none; */
+        }
+    .regionalTracker{
+        grid-area: t2;
+        /* display: none; */
+    }
+    
+}
+
+@media (max-width: 800px){
+    .Container2{
+        width: 100%;
+        background-image: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    
+    
+    .cards_container{
+        width: 100%;
+        height: auto;
+        display: grid;
+      
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(auto, 1fr);
+        height: auto;
+        justify-content: center;
+        justify-items: center;
+        padding: 0;
+        margin-bottom: 0;
+        grid-template-areas: 
+        "t1"
+        "one"
+        "two"
+        "thr"
+        "for"
+        "fiv"
+        "six"
+        "t2"
+        "sev";
+    }
+    
+
+    .cards{
+        width: 200px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   
+    
+}

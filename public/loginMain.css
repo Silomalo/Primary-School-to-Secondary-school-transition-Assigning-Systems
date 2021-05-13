@@ -1,0 +1,47 @@
+
+  body{
+    background-image: url(img/cliff.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; 
+  }
+ 
+  /*styling our login page*/
+  .loginPage  {
+    background-color: rgba(10, 30, 50, 0.7);
+    background-position:center;
+    background-size: cover;
+    padding-top: 20px;
+    margin:auto;
+    position:relative;
+    max-width: 400px;
+    height: 500px;
+    color:#fff;
+    z-index: 1;
+    margin-top: 100px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-right-style: outset;
+  }
+
+  .loginPage .container img {
+  height:100px;
+  width:100px;
+  align-items: center;
+  }
+  
+  .loginPage input{
+    font-family:cursive;
+    outline: 1;
+    height:40px;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  .loginPage input:active{
+    opacity: .5;
+  }
+ 
