@@ -277,9 +277,9 @@
             <img src="img/img1.jpg">
             <img src="img/img2.jpg">
             <img src="img/img3.jpg">
-            <img src="img/img4.jpg">
-            <img src="img/img5.jpg">
-            <img src="img/img6.jpg">
+            <img src="img/img4.jpeg">
+            <img src="img/img5.jpeg">
+            <img src="img/img6.jpeg">
           </div>
         </div>
         <div class="row justify-content-center info-text">

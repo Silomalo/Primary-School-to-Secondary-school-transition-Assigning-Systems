@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="cards.css">
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet"/>
-  <title>Admin Portal</title>
+  <title>Admin Panel</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
 
@@ -184,13 +184,7 @@
                 </a>
             </li>
 
-            <li class="nav-item">
-                <a href="#" class="nav-link">
-                    <span  style="color:green; font-family:gabriolla; font-size:25px">SMS</span>
-                </a>
-            </li>
-
-
+           
             <li class="nav-item">
                 <a href="/adminshowMessages" class="nav-link">
                     <svg class="svg-icon" viewBox="0 0 20 20">

@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="portal">
     <meta name="generator" content="Hugo 0.79.0">
-    <title>UZURI</title>
+    <title>PLACEMENT</title>
     
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/dashboard/">
 
